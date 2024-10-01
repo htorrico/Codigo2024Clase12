@@ -41,6 +41,9 @@ void ExampleConInterfaces() {
 
 List<IPedido> pedidos = new List<IPedido>();
 
+    
+ 
+
 ProductoA productoA= new ProductoA();
 ProductoB productoB = new ProductoB();
 ProductoC productoC = new ProductoC { Descuento = 20 };

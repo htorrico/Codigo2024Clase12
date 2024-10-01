@@ -20,14 +20,10 @@ namespace CodigoClase12
                 Console.WriteLine("Enviar producto a proveedor A");
 
             }
-
             if (TipoProducto == 2)
             {
                 Console.WriteLine("Enviar producto a proveedor B");
-
             }
-
-
             if (TipoProducto == 3)
             {
                 Console.WriteLine("Enviar producto a proveedor C");
