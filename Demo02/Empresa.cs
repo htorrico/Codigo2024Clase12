@@ -9,7 +9,7 @@ namespace Demo02
     public class Empresa
     {
         private List<IPagable> empleados = new List<IPagable>();
-        //public List<IPagable> empleados { get; set; }
+        
 
         //Pasas una interfaz como parámetro: INYECTAR LA INTERFAZ!
         public void AgregarEmpleado(IPagable empleado)

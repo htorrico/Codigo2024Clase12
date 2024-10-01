@@ -1,11 +1,7 @@
 ﻿using Demo02;
 
-//Empresa empresa = new Empresa { 
-//    empleados= new List<IPagable>()
-//};
+
 Empresa empresa = new Empresa();
-
-
 
 // Agregar empleados a la empresa
 empresa.AgregarEmpleado(new EmpleadoTiempoCompleto { SueldoMensual = 3000 });
